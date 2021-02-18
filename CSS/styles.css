@@ -1,0 +1,97 @@
+body {
+      margin: 0;
+      text-align: center;
+      font-family:Helvetica;
+      color:#40514E;
+}
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 60px;
+}
+
+hr{
+  border:dotted #eaf6f6 6px;
+  border-bottom:none;
+  width:4%;
+  margin:100px auto;
+
+}
+
+.top-container{
+  background-color: #E4F9F5;
+  position:relative;
+  padding:100px;
+}
+
+.middle-container{
+  background-color: #ffffff;
+  margin:100px 0;
+}
+
+.bottom-container{
+  background-color: #66bfbf;
+  margin:50px 0 20px;
+}
+
+.pro{
+  text-decoration:underline;
+}
+
+.intro{}
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top:50px;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left: 300px;
+  top:300px;
+}
+.wayneyou{
+  width: 100px;
+	border-radius: 50%;
+	border: 1px;
+}
+.programmer{
+  width: 100px;
+	border-radius: 50%;
+	border: 1px;
+}
+.ramen{
+  width: 100px;
+	border-radius: 50%;
+	border: 1px;
+}
+.a{
+  color: #11999e;
+  font-family:Helvetica;
+  text-decoration: none;
+}
+.btn{
+
+	box-shadow: 0px 0px 0px 0px #3dc21b;
+	background:linear-gradient(to bottom, #11cdd4 5%, #11999e 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	padding:16px 31px;
+	text-decoration:none;
+  margin:20px
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #11cdd4 100%);
+	background-color:#11999e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+}
